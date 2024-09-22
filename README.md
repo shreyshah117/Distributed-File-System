@@ -82,9 +82,19 @@ The client can use the following commands to interact with the distributed file 
 - GCC compiler
 
 ### Steps to Run:
+
 1. **Compile the server and client programs:**
    ```bash
    gcc -o smain Smain.c
    gcc -o spdf Spdf.c
    gcc -o stext Stext.c
    gcc -o client client24s.c
+
+2. **Run the servers on separate terminals:**
+   ```bash
+   ./smain
+   ./spdf
+   ./stext
+3. **Run the client:***
+   ```bash
+   ./client
